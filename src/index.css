@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: #17A2B8;
+  color: white;
+  text-decoration: none;
+}
+
+.titleNavBar{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.imgCarro{
+  width: 35px;
+}
+
+.divCarroHeader{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.divCards{
+  display:flex; 
+  gap:5px; 
+  flex-wrap:wrap; 
+  justify-content: center;
+}
+.verMas{
+  background-color:#0DCAF0; 
+  border: none;
+  color: white; 
+  border-radius:5px;
+  padding: 5px;
+}
+.anadir{
+  /* background-color: #DC3545;  */
+   min-width: 20px;
+  min-height: 5px; 
+  border: none; 
+  color: white; 
+  border-radius:5px;
+   padding: 0 5px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.divBotonesMasAnadir{
+  display:flex; 
+  gap:5px; 
+  justify-content:center
+}
+.divPrecio{
+  text-align:center;
+  padding-bottom: 5px;
+  font-size:20px; 
+  font-weight:bold;
+  margin-bottom: 0;
+}
+
+.fill {
+  background-size: cover;
+  background-position: center;
+  /* width: 100%; */
+  height: 100%;
+}
+
+.divCarrito{
+  
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  
+}
+
+.detalleCarrito{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F9FA;
+  padding: 30px;
+}
+
+.listadoCarrito{
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.titulos{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btnPagar{
+  border: none;
+  padding: 7px 15px;
+  background-color: #198754;
+  color: white;
+  border-radius: 5px;
+}
+
+.tblCarro{
+  background-color: white;
+}
+
+.botonesCarro{
+  display:flex;
+   gap:5px;
+   justify-content: center;
+}
